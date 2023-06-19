@@ -1,0 +1,42 @@
+.tools{
+
+    width: 100%;
+    padding:6rem 1rem ;
+}
+.card-container{
+    max-width: 1040px;
+    margin:auto;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 40px;
+  padding: 3rem 12rem;
+  
+    
+   
+}
+.cards{
+    border: 1px solid yellowgreen;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cards:hover{
+    border: 3px solid palevioletred;
+    
+}
+
+@media screen and (max-width:740px) {
+    
+    .card-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns:1fr;
+
+    }
+}
+.h1{
+    color: aqua;
+    text-align: center;
+    
+  
+}

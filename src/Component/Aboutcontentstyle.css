@@ -1,0 +1,27 @@
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+.about .left p{
+    margin: 1.2rem 0;
+}
+.about .right{
+    max-width: 700px;
+}
+.right .img-container{
+    display: grid;
+    position: relative;
+    align-items: center;
+}
